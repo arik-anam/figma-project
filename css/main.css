@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer unilities {
+  .primary-btn {
+     @apply  bg-[#293FCC] px-5 py-2.5 text-white capitalize text-center rounded-md font-semibold  ;
+    }
+}
